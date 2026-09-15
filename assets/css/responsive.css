@@ -1,0 +1,75 @@
+/* 
+==================================================
+BIRTHDAY PARTY - RESPONSIVE STYLES
+================================================== 
+*/
+
+/* Tablet (768px - 991px) */
+@media (max-width: 991px) {
+  .hero-section {
+    padding: 80px 0 100px;
+  }
+  
+  .hero-img-wrapper img {
+    height: 400px;
+    margin-top: 40px;
+    border-radius: var(--border-radius-lg);
+  }
+  
+  .search-card {
+    transform: translateY(-30px);
+    margin-bottom: 20px;
+  }
+  
+  .heading-lg {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+  
+  .navbar-collapse {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--box-shadow);
+    margin-top: 15px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+  }
+}
+
+/* Mobile (320px - 767px) */
+@media (max-width: 767px) {
+  .top-bar {
+    display: none; /* Hide top bar on very small screens for cleanliness */
+  }
+  
+  .hero-section {
+    padding: 40px 0 60px;
+    text-align: center;
+  }
+  
+  .hero-section .btn-primary-custom, 
+  .hero-section .btn-secondary-custom {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .hero-img-wrapper img {
+    height: 300px;
+  }
+  
+  .search-card {
+    padding: 20px;
+    transform: translateY(-20px);
+  }
+  
+  .service-card {
+    margin-bottom: 20px;
+  }
+  
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+}
